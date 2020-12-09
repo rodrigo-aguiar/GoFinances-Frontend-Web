@@ -31,6 +31,16 @@ export const Container = styled.div<ContainerProps>`
           opacity: 0.6;
         }
       }
+
+      .selected {
+        font-weight: bold;
+        pointer-events: none;
+        cursor: default;
+        text-decoration: underline;
+        text-decoration-color: #ff872c;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 15px;
+      }
     }
   }
 `;
